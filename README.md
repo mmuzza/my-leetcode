@@ -12,6 +12,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mmuzza/my-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/mmuzza/my-leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0049-group-anagrams](https://github.com/mmuzza/my-leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/mmuzza/my-leetcode/tree/master/0242-valid-anagram) |
 ## Dynamic Programming
 |  |
@@ -22,6 +23,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/mmuzza/my-leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mmuzza/my-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/mmuzza/my-leetcode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/mmuzza/my-leetcode/tree/master/0242-valid-anagram) |
 ## Sliding Window
@@ -33,6 +35,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/mmuzza/my-leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/mmuzza/my-leetcode/tree/master/0011-container-with-most-water) |
+| [0049-group-anagrams](https://github.com/mmuzza/my-leetcode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
 ## Greedy
 |  |
@@ -58,6 +61,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0049-group-anagrams](https://github.com/mmuzza/my-leetcode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/mmuzza/my-leetcode/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
