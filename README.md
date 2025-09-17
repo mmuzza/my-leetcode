@@ -20,6 +20,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/mmuzza/my-leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mmuzza/my-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/mmuzza/my-leetcode/tree/master/0242-valid-anagram) |
@@ -30,6 +31,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/mmuzza/my-leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/mmuzza/my-leetcode/tree/master/0011-container-with-most-water) |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
 ## Greedy
