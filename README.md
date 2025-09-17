@@ -20,6 +20,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mmuzza/my-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
 ## Sliding Window
 |  |
 | ------- |
@@ -28,6 +29,7 @@
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/mmuzza/my-leetcode/tree/master/0011-container-with-most-water) |
+| [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
 ## Greedy
 |  |
 | ------- |
@@ -49,4 +51,8 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/mmuzza/my-leetcode/tree/master/0023-merge-k-sorted-lists) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
