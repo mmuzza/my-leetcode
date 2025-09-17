@@ -12,6 +12,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mmuzza/my-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/mmuzza/my-leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0242-valid-anagram](https://github.com/mmuzza/my-leetcode/tree/master/0242-valid-anagram) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -21,6 +22,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mmuzza/my-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/mmuzza/my-leetcode/tree/master/0242-valid-anagram) |
 ## Sliding Window
 |  |
 | ------- |
@@ -55,4 +57,5 @@
 |  |
 | ------- |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
+| [0242-valid-anagram](https://github.com/mmuzza/my-leetcode/tree/master/0242-valid-anagram) |
 <!---LeetCode Topics End-->
