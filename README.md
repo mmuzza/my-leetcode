@@ -7,12 +7,14 @@
 | [0005-longest-palindromic-substring](https://github.com/mmuzza/my-leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/mmuzza/my-leetcode/tree/master/0011-container-with-most-water) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/mmuzza/my-leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0125-valid-palindrome](https://github.com/mmuzza/my-leetcode/tree/master/0125-valid-palindrome) |
 ## String
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mmuzza/my-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/mmuzza/my-leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0049-group-anagrams](https://github.com/mmuzza/my-leetcode/tree/master/0049-group-anagrams) |
+| [0125-valid-palindrome](https://github.com/mmuzza/my-leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/mmuzza/my-leetcode/tree/master/0242-valid-anagram) |
 ## Dynamic Programming
 |  |
