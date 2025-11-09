@@ -94,4 +94,8 @@
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/mmuzza/my-leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/mmuzza/my-leetcode/tree/master/1908-recyclable-and-low-fat-products) |
 <!---LeetCode Topics End-->
