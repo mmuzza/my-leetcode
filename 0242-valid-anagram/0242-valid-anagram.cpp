@@ -6,15 +6,16 @@ public:
             return false;
         }
 
-        unordered_map<char, int> sMap;
-        unordered_map<char, int> tMap;
+        unordered_map<char, int> sMap, tMap;
 
         for(int i = 0; i < s.size(); i++){
             sMap[s[i]]++;
             tMap[t[i]]++;
         }
 
-        return sMap == tMap;
+        return sMap==tMap;
 
+
+        
     }
 };
