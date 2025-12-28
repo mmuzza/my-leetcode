@@ -25,6 +25,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/mmuzza/my-leetcode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/mmuzza/my-leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0036-valid-sudoku](https://github.com/mmuzza/my-leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/mmuzza/my-leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/mmuzza/my-leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
@@ -39,6 +40,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/mmuzza/my-leetcode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/mmuzza/my-leetcode/tree/master/0011-container-with-most-water) |
+| [0036-valid-sudoku](https://github.com/mmuzza/my-leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/mmuzza/my-leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/mmuzza/my-leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
@@ -103,4 +105,8 @@
 | [1509-replace-employee-id-with-the-unique-identifier](https://github.com/mmuzza/my-leetcode/tree/master/1509-replace-employee-id-with-the-unique-identifier) |
 | [1827-invalid-tweets](https://github.com/mmuzza/my-leetcode/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/mmuzza/my-leetcode/tree/master/1908-recyclable-and-low-fat-products) |
+## Matrix
+|  |
+| ------- |
+| [0036-valid-sudoku](https://github.com/mmuzza/my-leetcode/tree/master/0036-valid-sudoku) |
 <!---LeetCode Topics End-->
