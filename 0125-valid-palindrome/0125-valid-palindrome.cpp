@@ -5,27 +5,28 @@ public:
         string cleanS = "";
 
         for(int i = 0; i < s.size(); i++){
-            if(isalnum(s[i])){ // checks if its a digit or letter. can also use isdigit || isalpha
-                cleanS += s[i];
+            if(isalnum(s[i])){ //
+                cleanS += tolower(s[i]);
             }
         }
-
-        cout << "word: " + cleanS << endl;
 
         int left = 0;
         int right = cleanS.size()-1;
 
-        bool palindrome = true;
+        cout << cleanS << endl;
 
         while(left < right){
-            if(tolower(cleanS[left]) != tolower(cleanS[right])){
-                palindrome = false;
-                break;
+            // cout << cleanS[left] << "---" << cleanS[right] << endl;
+
+            if(cleanS[left] != cleanS[right]){
+                return false;
             }
+            
             left++;
             right--;
         }
-        
-        return palindrome;
+
+        return true;
+
     }
 };
