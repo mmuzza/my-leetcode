@@ -2,17 +2,19 @@ class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
 
-        unordered_set<int> mySet;
+        // 12341567
+        // 1 is repeating
 
+        // Use a set
+        unordered_set<int> duplicate;
         for(int i = 0; i < nums.size(); i++){
 
-            if(mySet.count(nums[i])){
+            if(duplicate.count(nums[i])){
                 return true;
             }
-            mySet.insert(nums[i]);
+            duplicate.insert(nums[i]);
         }
 
         return false;
-        
     }
 };
