@@ -1,41 +1,39 @@
 class Solution {
 public:
     int longestConsecutive(vector<int>& nums) {
+        
+        // Can't sort because solution has to be O(n)
+        // Think of it on a number line
+        
+        unordered_set<int> allNums(nums.begin(), nums.end());
 
-        if(nums.size() == 0){
-            return 0;
-        }
 
-       // We can make priority queue that stores the number from greatest to lowest
-       // We can iterare over it and see how many consecutive numbers are there
+        int maxLength = 0;
 
-       priority_queue<int> q;
-       unordered_set<int> mySet;
-       for(int i = 0; i < nums.size(); i++){
-            mySet.insert(nums[i]);
-            // q.push(nums[i]);
-       }
+        for(int num : allNums){
+            // think of each number on a number line
+            // we will just check the next number by adding 1 to see if it exists
 
-       for(const auto & s : mySet){
-            q.push(s);
-       }
+            int current = num;
 
-       int longest = 0;
-       int current = 0;
+            // meaning if the number before it does not exist
+            // It is the first number
+            if(!allNums.count(current-1)){ 
+                
+                int count = 1;
+                while(allNums.count(current+1)){
+                    count++;
+                    current++;
+                }
 
-       while(!q.empty()){
-            int temp = q.top();
-            q.pop();
-
-            if(!q.empty() && (temp - 1 == q.top())){
-                current ++;
-            }else{
-                current = 0;
+                maxLength = max(maxLength, count);
             }
 
-            longest = max(longest, current);
-       }
+            
+        }
 
-       return longest + 1;
+        return maxLength;
+
+
     }
 };
