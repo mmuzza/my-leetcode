@@ -125,4 +125,8 @@
 |  |
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/mmuzza/my-leetcode/tree/master/0094-binary-tree-inorder-traversal) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/mmuzza/my-leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
