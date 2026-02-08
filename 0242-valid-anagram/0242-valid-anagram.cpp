@@ -1,21 +1,19 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
+        
+        // s = "anagram"
+        // t = "nagaram"
 
         if(s.size() != t.size()){
             return false;
         }
 
-        unordered_map<char, int> sMap, tMap;
+        sort(s.begin(), s.end());
+        sort(t.begin(), t.end());
 
-        for(int i = 0; i < s.size(); i++){
-            sMap[s[i]]++;
-            tMap[t[i]]++;
-        }
-
-        return sMap==tMap;
+        return s == t;
 
 
-        
     }
 };
