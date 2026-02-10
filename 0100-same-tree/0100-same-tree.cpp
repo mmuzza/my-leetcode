@@ -12,32 +12,38 @@
 class Solution {
 public:
 
-    void dfs(TreeNode* p, TreeNode* q, bool &equal){
+    bool dfs(TreeNode* p, TreeNode* q, bool &equal){
 
         if(p == nullptr && q == nullptr){
-            return;
+            // return;
+            return true;
         }
 
         if(p == nullptr || q == nullptr){
-            equal = false;
-            return;
+            // equal = false;
+            return false;
         }
 
         if(p->val != q->val){
-            equal = false;
+            // equal = false;
+            return false;
         }
 
-        dfs(p->left, q->left, equal);
-        dfs(p->right, q->right, equal);
+        // dfs(p->left, q->left, equal);
+        // dfs(p->right, q->right, equal);
+
+        return dfs(p->left, q->left, equal) && dfs(p->right, q->right, equal);
 
     }
 
     bool isSameTree(TreeNode* p, TreeNode* q) {
 
         bool equal = true;
-        dfs(p, q, equal);
+        // dfs(p, q, equal);
 
-        return equal;
+        // return equal;
+
+        return dfs(p, q, equal);
         
     }
 };
