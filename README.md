@@ -122,6 +122,7 @@
 | [0110-balanced-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/mmuzza/my-leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -131,6 +132,7 @@
 | [0110-balanced-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/mmuzza/my-leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -140,6 +142,7 @@
 | [0110-balanced-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0110-balanced-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/mmuzza/my-leetcode/tree/master/0572-subtree-of-another-tree) |
 ## Union-Find
 |  |
 | ------- |
@@ -150,4 +153,12 @@
 | [0100-same-tree](https://github.com/mmuzza/my-leetcode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/mmuzza/my-leetcode/tree/master/0226-invert-binary-tree) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/mmuzza/my-leetcode/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/mmuzza/my-leetcode/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
