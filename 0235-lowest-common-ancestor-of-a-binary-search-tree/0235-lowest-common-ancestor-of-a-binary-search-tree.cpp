@@ -20,12 +20,9 @@ public:
         dfs(root->left, p, q, answer);
         dfs(root->right, p, q, answer);
 
-        // cout << "Hello333" << endl;
-
         if(
-            // cout << p->val << "--" << root->val << "--" << q->val << endl;
-            (root->val >= p->val && root->val <= q->val) || 
-            (root->val <= p->val && root->val >= q->val)
+            (p->val <= root->val && q->val >= root->val) || 
+            (p->val >= root->val && q->val <= root->val)
         ){
             answer = root;
         }
@@ -34,7 +31,7 @@ public:
 
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
         
-        TreeNode* answer = new TreeNode();
+        TreeNode* answer;
 
         dfs(root, p, q, answer);
 
