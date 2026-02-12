@@ -15,6 +15,7 @@
 | [0005-longest-palindromic-substring](https://github.com/mmuzza/my-leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0049-group-anagrams](https://github.com/mmuzza/my-leetcode/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/mmuzza/my-leetcode/tree/master/0125-valid-palindrome) |
+| [0208-implement-trie-prefix-tree](https://github.com/mmuzza/my-leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/mmuzza/my-leetcode/tree/master/0242-valid-anagram) |
 ## Dynamic Programming
 |  |
@@ -28,6 +29,7 @@
 | [0036-valid-sudoku](https://github.com/mmuzza/my-leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/mmuzza/my-leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/mmuzza/my-leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0208-implement-trie-prefix-tree](https://github.com/mmuzza/my-leetcode/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/mmuzza/my-leetcode/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/mmuzza/my-leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -179,4 +181,12 @@
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/mmuzza/my-leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Design
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/mmuzza/my-leetcode/tree/master/0208-implement-trie-prefix-tree) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/mmuzza/my-leetcode/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
