@@ -1,77 +1,95 @@
+
+// Example words we need to enter are: "minute" and "mints"
+// trie will look like:
+
+//                          m
+//                          |
+//                          i
+//                          |
+//                          n
+//                         / \
+//                        u   t
+//                        |   |
+//                        t   s
+//                        |
+//                        e
+
+
 class TrieNode{
 
-public:
+    public:
+
     unordered_map<char, TrieNode*> children;
-    bool isEndOfWord;
+    bool endOfWord;
 
     TrieNode(){
-        isEndOfWord = false;
+        endOfWord = false;
     }
+
+
 };
 
 class Trie {
 public:
 
+    TrieNode* root;
 
-    TrieNode* obj;
-
-    Trie() {  
-        obj = new TrieNode();
+    Trie() {
+        root = new TrieNode();
     }
-
-    
     
     void insert(string word) {
+        TrieNode* node = root;
 
-        TrieNode* node = obj;
-        
-        for(char c : word){
-            
-            if(!node->children.count(c)){
-                node->children[c] = new TrieNode();
+        // mom 
+        // mother
+
+        for(char w : word){
+
+            if(!node->children.count(w)){
+                node->children[w] = new TrieNode();
             }
 
-            node = node->children[c];
+            node = node->children[w];
         }
 
-        node->isEndOfWord = true;
+        node->endOfWord = true;
     }
     
     bool search(string word) {
 
-        TrieNode* node = obj;
-        
-        for(char c : word){
+        TrieNode* node = root;
 
-            if(!node->children.count(c)){
+        for(char w : word){
+            if(node->children.count(w)){
+                node = node->children[w];
+            }else{
                 return false;
             }
-
-            node = node->children[c];
         }
 
-        if(node->isEndOfWord){
+        if(node->endOfWord){
             return true;
         }
+
         return false;
+        
+        
     }
     
     bool startsWith(string prefix) {
+        TrieNode* node = root;
 
-        TrieNode* node = obj;
-        
-        for(char c : prefix){
-
-            if(!node->children.count(c)){
+        for(char w : prefix){
+            if(node->children.count(w)){
+                node = node->children[w];
+            }else{
                 return false;
             }
-
-            node = node->children[c];
         }
 
         return true;
     }
-
 };
 
 /**
