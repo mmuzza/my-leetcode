@@ -21,6 +21,7 @@
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mmuzza/my-leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0070-climbing-stairs](https://github.com/mmuzza/my-leetcode/tree/master/0070-climbing-stairs) |
 ## Hash Table
 |  |
 | ------- |
@@ -189,4 +190,12 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/mmuzza/my-leetcode/tree/master/0208-implement-trie-prefix-tree) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/mmuzza/my-leetcode/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/mmuzza/my-leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
