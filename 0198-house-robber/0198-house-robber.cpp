@@ -41,28 +41,29 @@ public:
 
     
 
-    // int p1 = 0;
-    // int p2 = 0;
+    
 
     // 2    1     1      2
-    //                   i    p2     p1  both set to 0 initially
+    //            i           p2     p1  both set to 0 initially
 
     // 2    1     1      2
-    //            i      p2     p1 = 0 and p2 = 2
+    //      i            p2     p1 = 0 and p2 = 2
 
     // 2    1     1      2
-    //      i     p2     p1  p1 = 2 and p2 = 
+    // i          p2     p1  p1 = 2 and p2 = 
 
 
-    // for(int i = nums.size()-1; i >= 0; i--){
+    // 1       2       3       1
+    //                 i                p2         p1  both set to 0 initially
 
-    //     int temp = p2;
-    //     p2 = nums[i] + max(p1,p2);
-    //     p1 = p2;
-    // }
+    // 1       2       3       1
+    //         i               p2         p1       p1 = 0, p2 = 1+0
 
-        
-    //     return p2;
+    // 1       2       3       1
+    // i              p2      p1       p1 = 1, p2 = 2
+
+
+    
 
 
     }
