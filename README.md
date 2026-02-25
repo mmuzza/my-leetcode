@@ -22,6 +22,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/mmuzza/my-leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0070-climbing-stairs](https://github.com/mmuzza/my-leetcode/tree/master/0070-climbing-stairs) |
+| [0198-house-robber](https://github.com/mmuzza/my-leetcode/tree/master/0198-house-robber) |
 | [0746-min-cost-climbing-stairs](https://github.com/mmuzza/my-leetcode/tree/master/0746-min-cost-climbing-stairs) |
 ## Hash Table
 |  |
@@ -47,6 +48,7 @@
 | [0036-valid-sudoku](https://github.com/mmuzza/my-leetcode/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/mmuzza/my-leetcode/tree/master/0049-group-anagrams) |
 | [0128-longest-consecutive-sequence](https://github.com/mmuzza/my-leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0198-house-robber](https://github.com/mmuzza/my-leetcode/tree/master/0198-house-robber) |
 | [0217-contains-duplicate](https://github.com/mmuzza/my-leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/mmuzza/my-leetcode/tree/master/0238-product-of-array-except-self) |
 | [0347-top-k-frequent-elements](https://github.com/mmuzza/my-leetcode/tree/master/0347-top-k-frequent-elements) |
