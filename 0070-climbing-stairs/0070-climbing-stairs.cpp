@@ -2,8 +2,41 @@ class Solution {
 public:
     int climbStairs(int n) {
 
+        if(n == 1){
+            return 1;
+        }
+
+        vector<int> dp(n, 0);
+
+
+        dp[n-1] = 1;
+        dp[n-2] = 1;
+
+        for(int i = n-3; i >= 0; i--){
+            dp[i] = dp[i+1] + dp[i+2];
+        }
+
+        return dp[0] + dp[1];
+
+
+
         /*
-                        ___
+
+        n = 3
+
+        1 2 3 4
+        0 1 2 3
+
+        dp = [ __ __ __ ]
+        dp = [ __ __  1 ]
+         dp = [ __ 2 1 ]
+
+
+        
+        
+        */
+
+        /*
                     ___
                 ___
             ___
@@ -31,34 +64,62 @@ public:
 
         // 2 1 1
 
-        if(n == 1){
-            return 1;
-        }
+        // if(n == 1){
+        //     return 1;
+        // }
 
-        int pointer1, pointer2;
+        // int pointer1, pointer2;
 
-        for(int i = n; i >= 1; i--){
+        // for(int i = n; i >= 1; i--){
 
-            if(i == n){
-                pointer1 = 1;
-                cout << "p1: " << pointer1 << " -- p2: ";
-                continue;
-            }
-            if(i == n-1){
-                pointer2 = 1;
-                cout << pointer2 << endl;;
-                continue;
-            }
+        //     if(i == n){
+        //         pointer1 = 1;
+        //         continue;
+        //     }
+        //     if(i == n-1){
+        //         pointer2 = 1;
+        //         continue;
+        //     }
 
-            int temp = pointer1;
-            pointer1 = pointer2;
-            pointer2 = pointer1 + temp;
+        //     int temp = pointer1;
+        //     pointer1 = pointer2;
+        //     pointer2 = pointer1 + temp;
 
-            cout << "p1: " << pointer1 << " -- p2: " << pointer2 << endl;
 
-        }
+        // }
 
-        return pointer1 + pointer2;
+        // return pointer1 + pointer2;
+
+
+
+        /*
+
+        n = 5
+        [_ _ _ _ _]
+         0 1 2 3 4
+
+        we will go backwars so initialize an empty array [_ _ _ _ _]
+        1. from index 4:
+            - we can only take 1 step to get to the top
+            - [_ _ _ _ 1]
+        2. From index 3 we can take:
+            - 1 step that will be 1 way + whatever we have at index 4 ways
+            - 2 step will take us to the top so that another way
+            - so we store both of those whcih will be 3
+            - [_ _ _ 3 1]
+        3. from index 2 we can take:
+            - 1 step that will be 1 + 3 (index 3)
+            - 2 step that will be 1 way + 1 way (index 4)
+            - [_ _ 6 3 1]
+        4. from index 1 we can take
+            - 1 step that will be 1 + 6 (index 2)
+            - 2 step tha will be 1 + 
+              
+
+        */
+
+
+
 
         
     }
