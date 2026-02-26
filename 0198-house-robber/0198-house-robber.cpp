@@ -14,42 +14,49 @@ public:
 
     */
 
-    // if(nums.size() == 1){
-    //     return nums[0];
-    // }
-    // if(nums.size() == 2){
-    //     return max(nums[0], nums[1]);
-    // }
+    if(nums.size() == 1){
+        return nums[0];
+    }
+    if(nums.size() == 2){
+        return max(nums[0], nums[1]);
+    }
 
 
-    // vector<int> dp(nums.size(), 0);
+    vector<int> dp(nums.size(), 0);
 
-    // dp[nums.size()-1] = nums[nums.size()-1];
-    // dp[nums.size()-2] = nums[nums.size()-2];
-    // dp[nums.size()-3] = nums[nums.size()-1] + nums[nums.size()-3];
+    dp[nums.size()-1] = nums[nums.size()-1];
+    dp[nums.size()-2] = nums[nums.size()-2];
+    dp[nums.size()-3] = nums[nums.size()-1] + nums[nums.size()-3];
 
-    // for(int i = nums.size()-4; i >= 0; i--){
+    for(int i = nums.size()-4; i >= 0; i--){
         
-    //     dp[i] = nums[i] + max(dp[i+2], dp[i+3]);
-    // }
+        dp[i] = nums[i] + max(dp[i+2], dp[i+3]);
+    }
 
-    // return max(dp[0],dp[1]);
+    return max(dp[0],dp[1]);
 
 
     //-------------------------------------
 
+/*
+    2    1     1      2
+    
+    prev1 = 0, prev2 = 0
+    num = 2, temp = 0, prev1 = 0, prev2 = 0
+    num = 1, temp = 0, prev1 = 1, prev2 = 0
+*/
 
 
-    int prev1 = 0;
-    int prev2 = 0;
+    // int prev1 = 0;
+    // int prev2 = 0;
 
-    for(int num : nums){
-        int temp = prev1;
-        prev1 = max(prev2 + num, prev1);
-        prev2 = temp;
-    }
+    // for(int num : nums){
+    //     int temp = prev1;
+    //     prev1 = max(prev2 + num, prev1);
+    //     prev2 = temp;
+    // }
 
-    return prev1;
+    // return prev1;
 
 
     
