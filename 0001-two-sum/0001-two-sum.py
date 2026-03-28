@@ -1,17 +1,17 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         
-        # use dictionary/map to store number and index
-        myDict = {}
+        answer = []
+        my_dict = {}
 
-        # we will return a list/vector
-        myList = []
 
-        for i, x in enumerate(nums):
-            if target - x in myDict:
-                myList.append(myDict.get(target-x))
-                myList.append(i)
-            myDict[x] = i
+
+        for i, n in enumerate(nums):
+            if target - n in my_dict:
+                answer.append(i)
+                answer.append(my_dict.get(target-n))
+                return answer
+
+            my_dict[n] = i
         
-        return myList
-                
+        return answer
