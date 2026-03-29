@@ -1,22 +1,35 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
 
-        # first step make a freqmap
-        mydict = {}
-        for x in nums:
-            mydict[x] = mydict.get(x,0) + 1
-        
-        # put it in heap
-        maxheap = []
-        for key, val in mydict.items():
-            heapq.heappush(maxheap, (-val, key))
+        my_dict = defaultdict(int)
+
+
+        # Create a frequency map
+        for n in nums:
+            my_dict[n] += 1
         
 
-        # return the top ones
-        result = []
+        # max_heap = [(v,k) for k,v in my_dict.items()]
+        # heapq.heapify(max_heap)
+
+
+        max_heap = []
+        for key in my_dict:
+            heapq.heappush(max_heap, (-my_dict.get(key), key))
+        
+        answer = []
+        i = 0
         for i in range(k):
-            freq, num = heapq.heappop(maxheap)
-            result.append(num)
+            val, key = heapq.heappop(max_heap)
+            answer.append(key)
+
+        
+        return answer
 
 
-        return result
+
+
+
+
+
+        
