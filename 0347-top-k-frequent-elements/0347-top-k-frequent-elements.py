@@ -7,15 +7,11 @@ class Solution:
         # Create a frequency map
         for n in nums:
             my_dict[n] += 1
-        
-
-        # max_heap = [(v,k) for k,v in my_dict.items()]
-        # heapq.heapify(max_heap)
 
 
         max_heap = []
         for key in my_dict:
-            heapq.heappush(max_heap, (-my_dict.get(key), key))
+            heapq.heappush(max_heap, (-my_dict[key], key))
         
         answer = []
         i = 0
